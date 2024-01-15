@@ -61,7 +61,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["développeuse web", "dévelopeuse mobile", "étudiante en BTS SIO option SLAM"],
+    strings: ["développeuse web", "développeuse mobile", "étudiante en BTS SIO option SLAM"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
