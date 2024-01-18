@@ -933,7 +933,7 @@ header .navbar ul li a:hover {
 /* veille technologique section starts */
 .veilletech {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #ffdd00, #ff8800);
+  background: linear-gradient(to bottom, #000031, #00002c);
 }
 .veilletech h2 {
   color: #fff;

@@ -116,7 +116,7 @@ function showProjects(projects) {
 }
 
 async function fetchVeilletechData() {
-    const response = await fetch("veilletech.json");
+    const response = await fetch(".../veilletech.json");
     const data = await response.json();
     return data;
 }
