@@ -3,10 +3,6 @@
     "name": "Gestion Stage Elève",
     "desc": "En première année en AP on devait compléter du code sur un projet déja existant en PHP.",
     "image": "risser",
-    "category": "PHP",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
+    "category": "PHP"
   }
 ]

@@ -37,23 +37,6 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
-    // <!-- emailjs to mail contact form data -->
-
 });
 
 
@@ -107,10 +90,6 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
         </div>
       </div>
     </div>`
@@ -136,12 +115,39 @@ function showProjects(projects) {
 
 }
 
+async function fetchVeilletechData() {
+    const response = await fetch("veilletech.json");
+    const data = await response.json();
+    return data;
+}
+
+function showVeilletech(veilletech) {
+    let veilletechContainer = document.getElementById("veilletechContainer");
+    let veilleHTML = "";
+    
+    veilletech.forEach(veille => {
+        veilleHTML += `
+            <div class="bar">
+                <div class="info">
+                    <img src=${veille.icon} alt="veille" />
+                    <span>${veille.name}</span>
+                </div>
+            </div>`;
+    });
+
+    veilletechContainer.innerHTML = veilleHTML;
+}
+
 fetchData().then(data => {
     showSkills(data);
 });
 
 fetchData("projects").then(data => {
     showProjects(data);
+});
+
+fetchVeilletechData().then(data => {
+    showVeilletech(data);
 });
 
 // <!-- tilt js effect starts -->
@@ -210,6 +216,8 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 srtop.reveal('.skills .container', { interval: 200 });
 srtop.reveal('.skills .container .bar', { delay: 400 });
 
+
+
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });
 
@@ -220,6 +228,6 @@ srtop.reveal('.work .box', { interval: 200 });
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
 
-/* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+/* SCROLL VEILLE TECHNOLOGIQUE */
+srtop.reveal('.veilletech .container', { interval: 200 });
+srtop.reveal('.veilletech .container .bar', { delay: 400 });
