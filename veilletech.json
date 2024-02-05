@@ -2,5 +2,21 @@
     {
         "name": "Stack Overflow",
         "icon": "https://img.icons8.com/color/48/stackoverflow.png"
+    },
+    {
+        "name": "YouTube",
+        "icon": "https://img.icons8.com/color/48/youtube-play.png"
+    },
+    {
+        "name": "w3school",
+        "icon": "./assets/images/w3school.png"
+    },
+    {
+        "name": "ChatGPT",
+        "icon": "https://img.icons8.com/color/48/chatgpt.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     }
 ]

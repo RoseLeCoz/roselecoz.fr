@@ -159,11 +159,6 @@ header .navbar ul li a:hover{
 .experience {
   margin-top: 5rem;
 }
-.experience .quote {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
