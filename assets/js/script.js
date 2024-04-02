@@ -231,3 +231,6 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL VEILLE TECHNOLOGIQUE */
 srtop.reveal('.veilletech .container', { interval: 200 });
 srtop.reveal('.veilletech .container .bar', { delay: 400 });
+
+/* SCROLL CERTIFICATION */
+srtop.reveal('.certification .box', { interval: 200 });
