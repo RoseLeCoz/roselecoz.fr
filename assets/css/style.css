@@ -1071,10 +1071,8 @@ header .navbar ul li a:hover {
   font-weight: 700;
 }
 .certification .box-container .box .image-overlay-container {
+  flex: 1 1 20rem;
   width: 100%;
-  height: 25rem;
-  position: relative;
-  display: block;
 }
 .certification .box-container .box .image-overlay-container img {
   object-fit: cover;
