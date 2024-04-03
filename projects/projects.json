@@ -3,41 +3,41 @@
     "name": "Technitien Hotliner",
     "desc": "Projet d'AP effectué en première année. Cration d'un site qui présente un métier du numérique, j'avais choisi le technitien hotliner.",
     "image": "technicienhotliner",
-    "category": ".1er"
+    "category": "premier"
   },
 
   {
     "name": "Gestion Stage Elève",
     "desc": "Projet d'AP effectué en première année. Site qui fait la gestion de stage et de professeurs référent",
     "image": "risser",
-    "category": ".1er"
+    "category": "premier"
   },
 
   {
     "name": "Enchère et en os",
     "desc": "Projet d'AP effectué en deuxième année. Application mobile qui gère des enchères développé en c#",
     "image": "enchere",
-    "category": ".2eme"
+    "category": "deuxieme"
   },
 
   {
     "name": "Licos",
     "desc": "En première année en AP on devait compléter du code sur un projet déja existant en PHP.",
     "image": "risser",
-    "category": ".2eme"
+    "category": "deuxieme"
   },
 
   {
     "name": "Mon portfolio",
     "desc": "Pour cette épreuve j'ai développer mon porfolio en html, css, JavaScript.",
     "image": "portfolio",
-    "category": ".2eme"
+    "category": "deuxieme"
   },
 
   {
     "name": "Dantec Market",
     "desc": "Projet effectué en stage de deuxième année. Création d'une application e-commerce pour une association qui se trouve au sein du lycée",
     "image": "risser",
-    "category": ".stage"
+    "category": "stage"
   }
 ]

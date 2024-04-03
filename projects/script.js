@@ -66,7 +66,7 @@ function showProjects(projects) {
     // srtop.reveal('.work .box', { interval: 200 });
 
     // isotope filter products
-    var $grid = $('.box-container').isotope({
+    var $grid = $('.work .box-container').isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
         masonry: {
