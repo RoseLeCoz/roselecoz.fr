@@ -5,49 +5,42 @@
     "image": "technicienhotliner",
     "category": "premier"
   },
-
   {
     "name": "Gestion Stage Elève",
     "desc": "Projet d'AP effectué en première année. Site qui fait la gestion de stage et de professeurs référent.",
     "image": "risser",
     "category": "premier"
   },
-
   {
     "name": "Formation Com-Web",
     "desc": "Projet de stage effectué en première année. Création d'un site avec le framwork WordPress pour faire des formations en ligne.",
     "image": "formation-com-web",
     "category": "stage"
   },
-
   {
     "name": "Enchère et en os",
     "desc": "Projet d'AP effectué en deuxième année. Application mobile qui gère des enchères développé en c#.",
     "image": "enchere",
     "category": "deuxieme"
   },
-
   {
     "name": "Armor-Cycles",
     "desc": "Projet de stage effectué en deuxième année. Création d'un site de vente de vélos avec le framwork WordPress.",
     "image": "armor-cycle",
     "category": "stage"
   },
-
   {
     "name": "Licos",
     "desc": "En première année en AP on devait compléter du code sur un projet déja existant en PHP.",
     "image": "",
     "category": "deuxieme"
   },
-
   {
     "name": "Mon portfolio",
-    "desc": "Pour cette épreuve j'ai développer mon porfolio en html, css, JavaScript.",
+    "desc": "Pour cette épreuve j'ai développer mon porfolio en html, css avec du JavaScript.",
     "image": "portfolio",
     "category": "deuxieme"
   },
-
   {
     "name": "Dantec Market",
     "desc": "Projet de stage effectué en deuxième année. Création d'une application de e-commerce pour une association qui se situe au sein du lycée.",

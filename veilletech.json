@@ -4,11 +4,19 @@
         "icon": "https://img.icons8.com/color/48/stackoverflow.png"
     },
     {
+        "name": "Microsoft",
+        "icon": "https://img.icons8.com/color/48/microsoft.png"
+    },
+    {
+        "name": "Symfony",
+        "icon": "https://img.icons8.com/color/48/000000/symfony.png"
+    },
+    {
         "name": "YouTube",
         "icon": "https://img.icons8.com/color/48/youtube-play.png"
     },
     {
-        "name": "w3school",
+        "name": "W3school",
         "icon": "./assets/images/w3school.png"
     },
     {
