@@ -1,19 +1,19 @@
 [
   {
     "name": "Technicien Hotliner",
-    "desc": "Projet d'AP effectué en première année. Cration d'un site qui présente un métier du numérique, j'avais choisi le technitien hotliner.",
+    "desc": "Projet d'AP réalisé lors de la première année. Création d'un site qui expose un métier du numérique, j'ai exposé le technicien hotliner. ",
     "image": "technicienhotliner",
     "category": "premier"
   },
   {
     "name": "Gestion Stage Elève",
-    "desc": "Projet d'AP effectué en première année. Site qui fait la gestion de stage et de professeurs référent.",
+    "desc": "Projet d'AP réalisé lors de la première année. Évolution d'un site déjà en place qui gère les stages et les professeurs référents en PHP.",
     "image": "risser",
     "category": "premier"
   },
   {
     "name": "Formation Com-Web",
-    "desc": "Projet de stage effectué en première année. Création d'un site avec le framwork WordPress pour faire des formations en ligne.",
+    "desc": "Projet de stage réalisé lors de ma première année. Réalisation d'un site web utilisant le framwork WordPress afin de se former en ligne.",
     "image": "formation-com-web",
     "category": "stage"
   },
