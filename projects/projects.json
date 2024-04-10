@@ -43,8 +43,8 @@
   },
   {
     "name": "Dantec Market",
-    "desc": "Projet de stage effectué en deuxième année. Création d'une application de e-commerce pour une association qui se situe au sein du lycée.",
-    "image": "",
+    "desc": "Projet de stage réalisé lors de ma deuxième année. Création d'une application de e-commerce pour une association qui se situe au sein du lycée.",
+    "image": "dantecMarket",
     "category": "stage"
   }
 ]
