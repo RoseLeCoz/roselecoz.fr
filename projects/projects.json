@@ -1,7 +1,7 @@
 [
   {
     "name": "Technicien Hotliner",
-    "desc": "Projet d'AP réalisé lors de la première année. Création d'un site qui expose un métier du numérique, j'ai exposé le technicien hotliner. ",
+    "desc": "Projet d'AP réalisé lors de la première année. Création d'un site qui expose un métier du numérique, j'ai choisi le technicien hotliner. ",
     "image": "technicienhotliner",
     "category": "premier"
   },
@@ -13,26 +13,26 @@
   },
   {
     "name": "Formation Com-Web",
-    "desc": "Projet de stage réalisé lors de ma première année. Réalisation d'un site web utilisant le framwork WordPress afin de se former en ligne.",
+    "desc": "Projet de stage réalisé lors de la première année. Réalisation d'un site web utilisant le framwork WordPress afin de se former en ligne.",
     "image": "formation-com-web",
     "category": "stage"
   },
   {
     "name": "Enchère et en os",
-    "desc": "Projet d'AP effectué en deuxième année. Application mobile qui gère des enchères développé en c#.",
+    "desc": "Projet d'AP réalisé lors de la deuxième année. Application mobile qui gère des enchères développé en c#.",
     "image": "enchere",
     "category": "deuxieme"
   },
   {
     "name": "Armor-Cycles",
-    "desc": "Projet de stage effectué en deuxième année. Création d'un site de vente de vélos avec le framwork WordPress.",
+    "desc": "Projet de stage réalisé lors de la deuxième année. Création d'un site de vente de vélos avec le framwork WordPress.",
     "image": "armor-cycle",
     "category": "stage"
   },
   {
     "name": "Licos",
-    "desc": "En première année en AP on devait compléter du code sur un projet déja existant en PHP.",
-    "image": "",
+    "desc": "Projet d'AP réalisé lors de la deuxième année. On devait compléter du code sur un projet déja existant en PHP.",
+    "image": "licos",
     "category": "deuxieme"
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Dantec Market",
-    "desc": "Projet de stage réalisé lors de ma deuxième année. Création d'une application de e-commerce pour une association qui se situe au sein du lycée.",
+    "desc": "Projet de stage réalisé lors de la deuxième année. Création d'une application de e-commerce pour une association qui se situe au sein du lycée.",
     "image": "dantecMarket",
     "category": "stage"
   }
