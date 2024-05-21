@@ -31,13 +31,13 @@
   },
   {
     "name": "Licos",
-    "desc": "Projet d'AP réalisé lors de la deuxième année. On devait compléter du code sur un projet déja existant en PHP.",
+    "desc": "Projet d'AP réalisé lors de la deuxième année. Création d'un site de gestion de colis et de point relais.",
     "image": "licos",
     "category": "deuxieme"
   },
   {
     "name": "Mon portfolio",
-    "desc": "Pour cette épreuve j'ai développer mon porfolio en html, css avec du JavaScript.",
+    "desc": "Pour cette épreuve j'ai développé mon porfolio en html, css avec du JavaScript.",
     "image": "portfolio",
     "category": "deuxieme"
   },
